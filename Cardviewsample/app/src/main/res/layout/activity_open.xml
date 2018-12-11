@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/i1"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/durga1"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_marginTop="4dp"
+        android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:padding="6sp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Durga temple existed because of kodaganallur. People came from neighbour villages .Kodaganallur was surrounded by thorns forest,these
+people removed thorns and cattle grazing was done here to protect cows and sheep.They where worshiping durgaiamman so kodaganallur people used to tease them.
+Kodagan kalvai was created by these people. And they destroyed all the thorns forest  which was later changed into cultivation land.
+South puthukudi kallur people from different places came here and built this temple .Ponnayakonar heads the temple stone architecture .
+Every year thirunaal pooja used to happen from neighbour villages. 5-6-1998  - Gopuram kumbabhishakam \nvillakupooja is done every month full moon day(pourmani) "
+                android:layout_below="@+id/i1"
+                android:textSize="18dp" />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+

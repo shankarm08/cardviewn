@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="8dp"
+    android:layout_marginBottom="16dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/i1"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/pro"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_marginTop="4dp"
+        android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:padding="6sp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ruberan Development Projects for villages\n1.Agriculture weeds production unit\n2.Cooperative agriculture society\n3.Cow food mixing unit\n4.Extension of pipeline keezhakallur\n5.Kodaganallur oht tank\n6.Kodaganallur panchayat E-Library building place\n7.Kodaganallur panchayat garden natural vegetable horticulture\n8.Kodaganallur solar pumping room \n9.Kodaganallur library \n10.Nadukallur banana chips unit\n11.Nadukallur exam coaching center\n12.Nadukallur milk collection and cooling unit\n13.Panchayat solarpanel unit \n14.Ruban school building \n15.Ruberan driange land mark nadukallur highschool"
+                android:layout_below="@+id/i1"
+                android:textSize="18dp" />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

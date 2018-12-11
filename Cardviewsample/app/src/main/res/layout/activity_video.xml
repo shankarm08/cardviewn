@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kallur.asus.cardviewsample.VideoActivity">
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="video1"
+        android:id="@+id/b1"
+
+        />
+
+
+    <VideoView
+        android:id="@+id/videoviee"
+        android:layout_below="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="video2"
+        android:id="@+id/b2"
+
+        />
+
+
+
+
+    <VideoView
+        android:id="@+id/videovn"
+        android:layout_below="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

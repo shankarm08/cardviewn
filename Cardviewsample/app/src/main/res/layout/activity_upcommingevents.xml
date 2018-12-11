@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upcomingevents">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imgnew"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/krish1"
+        android:scaleType="fitXY"/>
+
+
+            <TextView
+                android:padding="6sp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t1"
+                android:text="Thank you for making this event success\n please click on the button below for video\n"
+                android:layout_below="@+id/imgnew"
+                android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/buttonpudhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignBottom="@+id/t1"
+        android:layout_alignStart="@+id/t1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="109dp"
+        android:text="dancevideo1" />
+
+
+    <Button
+        android:id="@+id/buttonnew1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignBaseline="@+id/buttonpudhu"
+        android:layout_alignBottom="@+id/buttonpudhu"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/buttonpudhu"
+        android:text="dancevideo2" />
+
+
+    <Button
+        android:id="@+id/buttonnew2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignBaseline="@+id/buttonpudhu"
+        android:layout_alignBottom="@+id/buttonpudhu"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/buttonnew1"
+        android:text="dancevideo3" />
+
+
+
+
+
+</RelativeLayout>

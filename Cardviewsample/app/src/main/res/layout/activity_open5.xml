@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/i1"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/kadaganallur"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_marginTop="4dp"
+        android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:padding="6sp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Brahan Madhavan Temple An ancient temple dedicated to Load Vishnu.The moolavar in the temple is known by the name Brahanmadhava. He has two consorts, Bhumi and Neela. Theutsavar is Load Ranganatha, also with two consorts. There is an exclusive sannidhi for Swami Desikan and the annualBrahmotsavan festival has been revived since this year. The samprokshanam of this temple was performed on June 11 2003 with great religious fervour. Nangaiarammman Temple Shri Nangaiyar Amman is the legendary ellaikkaaval deivam in the village. The powers of Goddess Shakti here are widely known. Devotees vouch for miracles happening in Her presence. Adjacent to this temple is a lily pond(tamarai kulam)."
+                android:layout_below="@+id/i1"
+                android:textSize="18dp" />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
+

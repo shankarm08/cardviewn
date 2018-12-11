@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contactus">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/background"
+         android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:padding="6sp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="For Temple pooja\nArchagar Vijaykumar - 9942490693\nTharmakartha(krishnan) - 9791342633\n\nFor travelling around village contact\nBalaji Auto - 9443166462\nSankar Auto - 7708397935\n\nFor feedback and suggestions\nRasu - 7358304678\nRengan  - 9791247324\nShankarvel - 9944029184 \nShankar - 8660813787\n Mari Andal Studio - 9942578707 "
+                android:textSize="18dp"
+                />
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

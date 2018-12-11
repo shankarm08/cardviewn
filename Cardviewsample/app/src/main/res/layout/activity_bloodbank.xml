@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bloodbank">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/i1"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/b"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_marginTop="4dp"
+        android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:padding="6sp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gokula Kannan blood bank was influenced by friends charitable trust.
+2008 it was invented by kombaiah.
+Initially they started with 27 members.
+Blood bank is functioning in all the cities in Tamil Nadu, Mumbai and Kerala.
+They communicate with the help of social networking like whatsapp and phone calls.
+They are also providing awareness on eye donor and Nilavembu Kudineer is widely used in medicine to cure and prevent and manage of all types of viral infections  and fever.
+They also helped during chennai floods and cyclone."
+                android:layout_below="@+id/i1"
+                android:textSize="18dp" />
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
